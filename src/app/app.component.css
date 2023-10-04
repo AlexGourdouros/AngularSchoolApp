@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  p, h1 {
+    text-align: center;
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    height: 50%; 
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
